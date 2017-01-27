@@ -1,0 +1,116 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 13px;
+    width: 1024px;
+    margin: 0 auto;
+    color: #333333
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+ul.unstyled {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nested>li>ul {
+    margin-left: 10px;
+    margin-bottom:  10px;
+}
+.nested>li>span {
+    font-weight: 700;
+}
+
+header {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #d4d4d4;
+    background-image: -moz-linear-gradient(top, #d4d4d4, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d4d4d4), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #d4d4d4, #f2f2f2);
+    background-image: -o-linear-gradient(top, #d4d4d4, #f2f2f2);
+    background-image: linear-gradient(to bottom, #d4d4d4, #f2f2f2);
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    overflow: hidden;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    margin-top: 28px;
+}
+
+header h2 {
+    float: right;
+    line-height: 28px;
+}
+
+header .line-jump {
+    display: block;
+}
+
+section {
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: 347px;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+}
+
+.content {
+    float: left;
+    width: 650px;
+}
+
+.two-col-line-item {
+    overflow: hidden;
+    clear: both;
+}
+
+.two-col-line-item .where {
+    float: left;
+    width: 75%;
+    margin-right: 2%;
+}
+
+.two-col-line-item .when {
+    float: right;
+    width: 23%;
+    text-align: right;
+}
+
+.technical-content {
+
+}
+
+.technical-content .col {
+    width: 31%;
+    margin-left: 3%;
+    float: left;
+    height: 470px;
+}
+.technical-content .col:first-child {
+    margin-left: 0;
+}
+
+.technical-content .col.separator {
+    border-right: 1px solid #d4d4d4;
+}
+
+.technical-content .nested {
+    padding-right: 15px;
+}
